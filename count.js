@@ -1,4 +1,8 @@
-// count.js：数一行（基线：一律给零）
+// count.js：数一行行首连续空格；整行都是空格按整行长度算；空行给零。
 export function leadingSpaces(line) {
-  return 0;
+  let count = 0;
+  while (count < line.length && line[count] === " ") {
+    count += 1;
+  }
+  return count;
 }
