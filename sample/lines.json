@@ -1,0 +1,4 @@
+{
+  "tab_error_code": "E_TAB_FOUND",
+  "lines": ["alpha", "  beta", "    gamma", "", "  ", "delta"]
+}
